@@ -1,0 +1,19 @@
+<html>
+<script>
+function interest()
+{
+var p = document.getElementById('p').value;
+var r = document.getElementById('r').value;
+var t = document.getElementById('t').value;
+si = p*r*t/100;
+document.getElementById('s').innerHTML = "simple interst="+si;
+}
+</script>
+<body>
+Enter value of p<input type = "text" id='p'></br></br>
+Enter value of r<input type = "text" id='r'></br></br>
+Enter value of t<input type = "text" id='t'></br></br>
+<input type = "submit" value="simple interest" onclick="interest()">
+<p id = 's'>show simple interest</p>
+</body>
+</html>

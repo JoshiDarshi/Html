@@ -1,0 +1,15 @@
+<html>
+<script>
+function circle()
+{
+var ar = document.getElementById('ar').value;
+c=3.14*ar*ar;
+document.getElementById('s').innerHTML = c;
+}
+</script>
+<body>
+Enter Radius<input type = "text" id = 'ar'><br><br>
+<input type="submit" value="Area" onclick="circle()">
+<p id='s'>show Result</p>
+</body>
+</html>

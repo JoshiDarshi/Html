@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Student Registration</title>
+</head>
+<body>
+<form action='a.html' method='get'>
+
+<table align="center" border=""cellspacing='0' cellpadding='0' style='background-color:orange;color:white'>
+<tr><th colspan='2'><h3 align='center' style='color:red';>Student Registration Form </h3></th></tr>
+<tr><th>Enter Name</th><td><input type="text" name="uname" required pattern="[a-z A-Z]+" title='pls match the request format'></td></tr>
+<tr><th>Enter Fname</th><td><input type="text" name="fname" required pattern="[a-z A-Z]+" title='pls match the request format'></td></tr>
+<tr><th>Enter Password</th><td><input type="password" name="pwd" maxlength="10" placeholder="Enter Password" required pattern="[a-z A-Z0-9]+" title='pls enter only alphanumeric'></td></tr>
+<tr><th>Select Gender</th><td>Male<input type="radio" name="gen" value="Male"> Female<input type="radio" name="gen" value="Female"required></td>
+<tr><th>Select State</th><td><select name="state" required>
+<option>Please Select One</option>
+<option value="Madhya Pradesh">MP</option>
+<option>RJ</option>
+<option>UP</option>
+</select></td></tr>
+
+<tr><th>Select Skills</th><td>
+<select name="skill" multiple>
+<option>Please Select One</option>
+<option>c</option>
+<option>c++</option>
+<option>java</option>
+</select></td></tr>
+
+<tr><th>Select Hobbies</th>
+<td>Cricket<input type = "checkbox" name="hoobie" value="Cricket">
+Football<input type = "checkbox" name="hoobie" value="Football">
+Hockey<input type = "checkbox" name="hoobie" value="Hockey"></td></tr>
+
+<tr><th>Select Files</th><td><input type="file" name="img"></td></tr>
+
+
+<tr><th>Select Files</th><td><input type="file" name="img1" multiple></td></tr>
+
+
+<tr><td><input type ="checkbox" name="cond" value="True" style="margin-left:80px";></td><th> I Accept terms & Condition</th></tr>
+
+
+
+<tr><td></td><td><input type="Submit"  value="Register">   <input type="reset"></td></tr>
+</table>
+</form>
+</body>
+</html>

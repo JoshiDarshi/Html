@@ -1,0 +1,24 @@
+<html>
+<script>
+function gre()
+{
+var a = document.getElementById('a').value;
+var b = document.getElementById('b').value;
+if (a>b)
+{
+document.getElementById('s').innerHTML="Greater number is:"+a;
+}
+else{
+document.getElementById('s').innerHTML="Greater number is:"+b;
+}
+
+}
+
+</script>
+<body>
+Enter value of a <input type = "text" id ="a"></br></br>
+Enter value of b <input type = "text" id= "b"></br></br>
+<input type ="submit" value = "Greater" onclick="gre()">
+<p id='s'>greater number is</p>
+</body>
+</html>
